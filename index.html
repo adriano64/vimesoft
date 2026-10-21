@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vimesoft – Soluciones de tecnología a tu medida</title>
+  <meta name="description" content="Vimesoft desarrolla software, automatiza procesos y acompaña la transformación digital de tu empresa.">
+  <meta property="og:title" content="Vimesoft – Soluciones de tecnología a tu medida">
+  <meta property="og:description" content="Software, automatización y consultoría tecnológica para empresas.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="#inicio" class="logo"><span>V</span>imesoft</a>
+      <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav id="menu">
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto" class="btn btn-sm">Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <p class="eyebrow">Consultoría y desarrollo de software</p>
+        <h1>Tecnología que impulsa <em>tu negocio</em></h1>
+        <p class="lead">Diseñamos, desarrollamos e implementamos soluciones digitales adaptadas a las necesidades específicas de tu empresa.</p>
+        <div class="actions">
+          <a href="#contacto" class="btn">Solicita una consulta</a>
+          <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
+        </div>
+        <ul class="stats">
+          <li><strong>50+</strong><span>Proyectos</span></li>
+          <li><strong>10+</strong><span>Años de experiencia</span></li>
+          <li><strong>99%</strong><span>Clientes satisfechos</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container">
+        <h2>Nuestros servicios</h2>
+        <p class="sub">Todo lo que necesitas para modernizar tu operación.</p>
+        <div class="grid">
+          <article class="card"><div class="icon">💻</div><h3>Desarrollo a medida</h3><p>Aplicaciones web y móviles construidas para tus procesos.</p></article>
+          <article class="card"><div class="icon">☁️</div><h3>Cloud y DevOps</h3><p>Migración, infraestructura y despliegues continuos y seguros.</p></article>
+          <article class="card"><div class="icon">⚙️</div><h3>Automatización</h3><p>Integra sistemas y elimina tareas manuales repetitivas.</p></article>
+          <article class="card"><div class="icon">📊</div><h3>Datos e IA</h3><p>Dashboards, analítica e inteligencia artificial aplicada.</p></article>
+          <article class="card"><div class="icon">🔒</div><h3>Ciberseguridad</h3><p>Evaluaciones y buenas prácticas para proteger tu información.</p></article>
+          <article class="card"><div class="icon">🧭</div><h3>Consultoría IT</h3><p>Estrategia tecnológica y acompañamiento experto.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section alt">
+      <div class="container two-col">
+        <div>
+          <h2>Sobre nosotros</h2>
+          <p>Somos un equipo de ingenieros y consultores apasionados por la tecnología. Trabajamos de cerca con cada cliente para entender su negocio y entregar soluciones que generan resultados medibles.</p>
+          <ul class="checks">
+            <li>Equipo senior y certificado</li>
+            <li>Metodologías ágiles y transparentes</li>
+            <li>Soporte continuo posterior a la entrega</li>
+          </ul>
+        </div>
+        <div class="panel" aria-hidden="true"><code>&lt;/&gt;</code></div>
+      </div>
+    </section>
+
+    <section id="proceso" class="section">
+      <div class="container">
+        <h2>Cómo trabajamos</h2>
+        <ol class="steps">
+          <li><b>1</b><h3>Descubrimiento</h3><p>Entendemos tus objetivos y retos.</p></li>
+          <li><b>2</b><h3>Diseño</h3><p>Definimos la solución y el plan.</p></li>
+          <li><b>3</b><h3>Desarrollo</h3><p>Construimos en ciclos cortos con entregas continuas.</p></li>
+          <li><b>4</b><h3>Soporte</h3><p>Acompañamos y mejoramos la solución.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contacto" class="section cta">
+      <div class="container">
+        <h2>¿Listo para empezar?</h2>
+        <p class="sub">Cuéntanos tu proyecto y te responderemos en menos de 24 horas.</p>
+        <form id="form" class="form">
+          <input name="nombre" placeholder="Nombre" required>
+          <input name="email" type="email" placeholder="Correo electrónico" required>
+          <textarea name="mensaje" rows="4" placeholder="¿En qué podemos ayudarte?" required></textarea>
+          <button class="btn" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Vimesoft. Todos los derechos reservados.</span>
+      <a href="mailto:info@vimesoft.com">info@vimesoft.com</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
